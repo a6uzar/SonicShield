@@ -1,5 +1,5 @@
 
-# 🎯 CrimeSound AI - Crime Scene Audio Classifier
+# 🎯 SonicShield - nextgen security solution
 
 <div align="center">
   <img src="https://img.shields.io/badge/Built%20with-React-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React" />
@@ -10,43 +10,41 @@
 
 ## 🚀 Overview
 
-**CrimeSound AI** is a cutting-edge, AI-powered Crime Scene Audio Classifier designed for real-world deployment in smart city surveillance systems and emergency response networks. This sophisticated frontend interface serves as the control center for deep learning-based audio classification, enabling real-time threat detection and automated incident response.
+**SonicShield** is an intelligent audio classification system designed to assist law enforcement and public safety agencies by analyzing and detecting crime-related sounds in real time. Using advanced machine learning and spectral filtering techniques, SonicShield can differentiate between normal environmental noise and potential indicators of criminal activity—like gunshots, screams, glass breaking, or fights.
+
+This tool aims to bridge the gap in current surveillance systems by providing a scalable, affordable, and privacy-preserving way to enhance situational awareness in urban and rural settings alike.
 
 Built for **national-level hackathon competition**, this project demonstrates the future of public safety technology through intelligent audio monitoring and classification.
 
 ## ✨ Key Features
+## 1. Multi-Class Audio Classification
+SonicShield can recognize and distinguish between various types of crime-related audio events.
+It uses a deep learning model trained on labeled audio data to classify these sounds accurately.
 
-### 🎛️ **Real-Time Monitoring Dashboard**
-- Live audio waveform visualization
-- Real-time classification with confidence scores
-- Instant threat detection alerts
-- Geographic incident mapping
+## 2. Spectral Filtering for Accuracy
+We apply spectral filtering techniques to clean and enhance audio input before it reaches the model. This means:
+Irrelevant background noise is filtered out
+Only important frequency patterns are analyzed
+This boosts the accuracy and reduces false positives in noisy environments like streets or public places.
 
-### 📊 **Advanced Analytics & Insights**
-- Comprehensive classification distribution charts
-- Monthly trend analysis and patterns
-- 24-hour activity heatmaps
-- ML model explainability dashboard
-- Performance metrics and accuracy tracking
+## 3. Real-Time Detection Capability
+SonicShield is optimized for real-time inference, making it suitable for:
+Live surveillance audio feeds
+Smart microphones or IoT-enabled security systems
+This ensures immediate detection and response to suspicious sounds.
 
-### 🔊 **Audio Upload & Processing**
-- Drag & drop file upload interface
-- Multi-format audio support (MP3, WAV, FLAC, OGG)
-- Real-time processing status tracking
-- Detailed classification results with confidence scores
+## 4. Visual Audio Analytics
+Every audio clip is converted into a spectrogram (a visual representation of sound frequencies).
+These are used to:
+Improve model explainability
+Help investigators visualize what was heard
+Debug or validate model predictions
 
-### 👥 **Admin Panel & User Management**
-- User role management (Admin, Operator, Viewer)
-- Audio upload logs and audit trails
-- System health monitoring
-- Configuration management
-
-### 🎨 **Modern UI/UX Design**
-- Futuristic glassmorphism design
-- Dark theme with cyberpunk aesthetics
-- Responsive design (desktop, tablet, mobile)
-- Smooth animations and micro-interactions
-- Professional surveillance interface styling
+## 5. Modular and Scalable Architecture
+The project is built with flexibility in mind:
+Easily integrates into existing surveillance systems
+Can be deployed on cloud servers or edge devices (like Raspberry Pi, Jetson Nano)
+Well-structured codebase for quick customization or model upgrades
 
 ## 🧠 AI Classification Categories
 
@@ -219,12 +217,6 @@ REACT_APP_MAPBOX_TOKEN=your_mapbox_token_here
 - Secure file upload handling
 - Privacy-focused design
 
-## 👥 Team
-
-- **Dr. Sarah Chen** - AI Research Lead
-- **Marcus Rodriguez** - Full-Stack Developer  
-- **Priya Patel** - Data Scientist
-- **James Wilson** - Security Consultant
 
 ## 🏆 Hackathon Impact
 
@@ -255,15 +247,6 @@ This project addresses critical challenges in public safety:
 - [ ] Advanced analytics and reporting
 - [ ] Integration with emergency services
 
-## 📄 License
-
-This project is developed for hackathon purposes. Please contact the team for licensing information.
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our contributing guidelines for more information.
-
----
 
 <div align="center">
   <strong>🚨 Built for a Safer Tomorrow 🚨</strong>
